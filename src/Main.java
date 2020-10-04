@@ -1,18 +1,16 @@
 import java.util.logging.Logger;
 
-
 //////////////////////////////////////////////////////////
 //driver to test the dynamic array implementation
 public class Main {
 
-    private static Logger log = Logger.getLogger("ArrayItr");   // For logging execution purposes
+    private static Logger log = Logger.getLogger("Main");   // For logging execution purposes
 
     /**
      * Get the line number for tracking executions calls
      * @return  The current tread line number of calling object
      */
     private static int getLineNumber(){ return Thread.currentThread().getStackTrace()[2].getLineNumber();}
-
 
     /**
      * Main method
